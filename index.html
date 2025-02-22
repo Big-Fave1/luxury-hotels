@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotels</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header class="home">
+        <div class="container">
+            <nav>
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="contact.html">Contact-us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="contact.html">Contact-us</a></li>
+                </ul>
+                <li class="mobile-menu" onclick="showSidebar()"><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+            </nav>
+            <div class="logo">
+                <p class="luxury-hotel">LUXURY</p>
+                <p class="hotel-logo">HOTELS</p>
+            </div>
+        </div>
+        <article class="welcome">WELCOME TO <br><span class="luxury">LUXURY </span><br> <span class="hotel">HOTELS</span>
+                <p class="article__p">Book your stay and enjoy Luxury <br>redefined at the most affordable rates.</p>
+        </article>
+        <div class="book-now">
+        <button class="book-now-btn">BOOK NOW</button>
+    </div>
+    <div class="scroll">
+        <p>Scroll</p>
+    </div>
+    <div class="scroll-image">
+        <img src="img/image.png" alt="image png">
+    </div>
+    </header>
+        <p class="content">All our room types are including complementry breakfast</p>
+    <div class="img-container">
+            <img src="img/luxury redefined 500 x 332.jpg" alt="luxury">
+    </div>
+    <div class="text">
+        <h1>Luxury redefined</h1>
+    </div>
+    <div class="section">
+            <p>Our rooms are designed to transport <br>you into an environment made for leisure. <br> Take your mind off the day-to-day of home <br> life and find a private paradise for yourself.</p>
+    </div>
+    <div class="explore-btn-container">
+        <button class="explore-btn">EXPLORE</button>
+    </div>
+
+    <div class="img-container2">
+        <img src="img/leave your worries 500 x 333.jpg" alt="luxury">
+    </div>
+    <div class="text-2">
+        <h1>Leave your worries in <br>the sand</h1>
+    </div>
+    <div class="section-2">
+            <p>We love life at the beach.Being close <br>to the ocean with access to endless sandy <br> beach ensures a relaxed state of mind.It <br> seems like time stands still watching the ocean.  </p> 
+        
+    </div>
+    <div class="explore-btn-container2">
+        <button class="explore-btn">EXPLORE</button>
+    </div>
+    <article>
+            <p class="article__p1">Testimonials</p>
+            <p class="article__p2">'Calm, Serene, Retro - What a way to relax and enjoy</p>
+            <p class="article__p3">Mr. and Mrs. baxter, UK.</p>
+    </article>
+    <div class="arrow">
+        <p class="left-arr"><</p>
+        <p class="right-arr">><p>
+    </div>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+
+        }
+        function hideSidebar(){
+       const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+
+ <footer>
+    <section class="triangle-container">
+        <div class="first-triangle"></div>
+    </section>
+    <section class="footer-container">
+    <div class="footer-logo">
+        <p class="luxury-hotel1">LUXURY</p>
+        <p class="hotel-logo1">HOTELS</p>
+        <address class="footer-address">497 Evergreen Rd. Roseville, CA 95673 </address>
+        <p class="footer-p2">Phone: +44 345 678 903 <br>Email: luxury_hotels@gmail.com</p>
+    </div>
+    <div class="footer-about">
+        <p>
+            <p>About Us </p>
+            <p>Contact </p>
+            <p>Terms & Condition</p>
+        </p>
+    </div>
+    <div class="social-handle">
+        <p class="social-icons">
+            <p class="p1">Facebook</p>
+            <p class="p2">Twitter</p>
+            <p class="p3">Instagram</p>
+        </p>
+    </div>
+    <div>
+        <p class="suscribe">Suscribe to our realactor</p>
+        <div class="subscribe-container">
+             <p class="email-btn">Email Address</p>
+             <p class="ok-btn">OK</p> 
+        </div>    
+    </div>
+    </section>
+ </footer>
+</html>

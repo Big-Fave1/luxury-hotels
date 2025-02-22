@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotels</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="contact">
+            <div class="container">
+                <nav>
+                    <ul class="sidebar">
+                        <li onclick="hideSidebar()"><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="contact.html">Contact-us</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="contact.html">Contact-us</a></li>
+                    </ul>
+                    <li class="mobile-menu" onclick="showSidebar()"><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                </nav>
+                <div class="contact-logo">
+                    <p class="luxury-hotel">LUXURY</p>
+                    <p class="hotel-logo">HOTELS</p>
+                </div>
+            <div class="header-text">
+                <h1>CONTACT-US</h1>
+            </div>
+    </header>
+    <main>
+       
+        <article  class="contact__message">
+            <h2 class="contact__h2">WE ARE HERE FOR YOU</h2>
+            <p>At Luxury Hotels, we take our customers seriously. Do you have any enquiries, complaints or requests, please forward it to our support desk and we will get back to you as soon as possible.</p>
+        </article>
+    <section class="contact-section">
+        <form class="form"action="https:||httpsbin.org/get" method="get">
+            <label class="contact__label" for="name">Name</label>
+            <input class="contact__input" type="text" name="Name" id="Name" required> 
+
+            <label class="contact__label" for="email">Email Address</label>
+            <input class="contact__input" type="text" name="email" id="email" required> 
+
+            
+            <label class="contact__label" for="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
+        <div class="submit-btn">
+            <button class="contact__btn">Submit</button>
+        </div>
+    </form>     
+   
+        <address>497 Evergreen Rd. Roseville, <br>CA 95673</address>
+       
+            <p class="map">view map</p>
+            <p class="phone">Phone: +44 345 678 903</p>
+            <p class="mail">Email: luxury_hotels@gmail.com</p>
+       
+             
+        
+            
+    </section>
+    </main>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+
+        }
+        function hideSidebar(){
+       const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+<footer>
+    <section class="triangle-container">
+        <div class="first-triangle"></div>
+    </section>
+    <section class="footer-container">
+    <div class="footer-logo">
+        <p class="luxury-hotel1">LUXURY</p>
+        <p class="hotel-logo1">HOTELS</p>
+        <address class="footer-address">497 Evergreen Rd. Roseville, CA 95673 </address>
+        <p class="footer-p2">Phone: +44 345 678 903 <br>Email: luxury_hotels@gmail.com</p>
+    </div>
+    <div class="footer-about">
+        <p>
+            <p>About Us </p>
+            <p>Contact </p>
+            <p>Terms & Condition</p>
+        </p>
+    </div>
+    <div class="social-handle">
+        <p class="social-icons">
+            <p class="p1">Facebook</p>
+            <p class="p2">Twitter</p>
+            <p class="p3">Instagram</p>
+        </p>
+    </div>
+    <div>
+        <p class="suscribe">Suscribe to our realactor</p>
+        <div class="subscribe-container">
+             <p class="email-btn">Email Address</p>
+             <p class="ok-btn">OK</p> 
+        </div>    
+    </div>
+    </section>
+ </footer>
+</html>

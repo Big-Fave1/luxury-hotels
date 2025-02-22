@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotels</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="facilities">
+        <div class="container">
+            <nav>
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="contact.html">Contact-us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="contact.html">Contact-us</a></li>
+                </ul>
+                <li class="mobile-menu" onclick="showSidebar()"><a href="#"></a><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+            </nav>
+            <div class="logo">
+                <p class="luxury-hotel">LUXURY</p>
+                <p class="hotel-logo">HOTELS</p>
+            </div>
+        </div>
+        <article class="welcome">WELCOME TO <br><span class="luxury">LUXURY </span><br> <span class="hotel">HOTELS</span>
+                <p class="article__p">Book your stay and enjoy Luxury <br>redefined at the most affordable rates.</p>
+        </article>
+        <div class="book-now">
+        <button class="book-now-btn">BOOK NOW</button>
+    </div>
+    <div class="scroll">
+        <p>Scroll</p>
+    </div>
+    <div class="scroll-image">
+        <img src="img/image.png" alt="image png">
+    </div>
+    </header>
+    <main>
+        <h2 class="facilities__title">FACILITIES</h2>
+        <p class="facilities__P">We want your stay at our lush hotel to be truly unforgetable. That is why we give special attention to all of your needs so that we can ensure an experience quite unique. Luxury hotels offers the perfect setting with stunning views for leisure and our modern luxury resort facilities will help you enjoy the best of all.</p>
+    <div class="container__2">
+        <img src="img/the gym 600 x 400.jpg" alt="the gym" class="centered-image">
+    </div>
+    <div class="gym-container">
+        <button class="gym">THE GYM</button>
+    </div>
+    <div class="container__3">
+        <img src="img/poolside 600 x 400.jpg" alt="the bar" class="centered-image">
+    </div>
+    <div class="pool-container">
+        <button class="pool">POOLSIDE BAR</button>
+    </div>
+
+    <div class="container__4">
+        <img src="img/the spa 599 x 400.jpg" alt="the spa" class="centered-image">
+    </div>
+    <div class="spa-container">
+        <button class="spa">THE SPA</button>
+    </div>
+
+    <div class="container__5">
+        <img src="img/swimming pool 600 x 400.png" alt="the swimming pool" class="centered-image">
+    </div>
+    <div class="swimming-container">
+        <button class="swimming">SWIMMING POOL</button>
+    </div>
+
+    <div class="container__6">
+        <img src="img/resturant 600 x 400.jpg" alt="the resturant" class="centered-image">
+    </div>
+    <div class="resturant-container">
+        <button class="resturant">RESTURANT</button>
+    </div>
+
+    <div class="container__7">
+        <img src="img/laundry 600 x 400.jpg" alt="the laundry" class="centered-image">
+    </div>
+    <div class="laundry-container">
+        <button class="laundry">LAUNDRY</button>
+    </div>
+    <article>
+        <p class="article__p1">Testimonials</p>
+        <p class="article__p2">'Calm, Serene, Retro - What a way to relax and enjoy</p>
+        <p class="article__p3">Mr. and Mrs. baxter, UK.</p>
+    </article>
+    <div class="arrow">
+        <p class="left-arr"><</p>
+        <p class="right-arr">><p>
+    </div>
+    </main>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+
+        }
+        function hideSidebar(){
+       const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+    </body>
+
+    <footer>
+        <section class="triangle-container">
+            <div class="first-triangle"></div>
+        </section>
+        <section class="footer-container">
+        <div class="footer-logo">
+            <p class="luxury-hotel1">LUXURY</p>
+            <p class="hotel-logo1">HOTELS</p>
+            <address class="footer-address">497 Evergreen Rd. Roseville, CA 95673 </address>
+            <p class="footer-p2">Phone: +44 345 678 903 <br>Email: luxury_hotels@gmail.com</p>
+        </div>
+        <div class="footer-about">
+            <p>
+                <p>About Us </p>
+                <p>Contact </p>
+                <p>Terms & Condition</p>
+            </p>
+        </div>
+        <div class="social-handle">
+            <p class="social-icons">
+                <p class="p1">Facebook</p>
+                <p class="p2">Twitter</p>
+                <p class="p3">Instagram</p>
+            </p>
+        </div>
+        <div>
+            <p class="suscribe">Suscribe to our realactor</p>
+            <div class="subscribe-container">
+                 <p class="email-btn">Email Address</p>
+                 <p class="ok-btn">OK</p> 
+            </div>    
+        </div>
+        </section>
+     </footer>
+    </html>
